@@ -1,0 +1,64 @@
+label {
+    text-align: left;
+    display: block;
+    margin-bottom: 10px; 
+  }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ h1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h3 {
+    text-align: left;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the radio buttons */
+  label input[type="radio"] {
+    margin-left: 10px;
+  }
+  
+  /* Style the input fields and textareas */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the placeholder text */
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+  button {
+    background-color: #121313;
+    color: #f5f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    align-self: flex-end; /* Move the button to the right side */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .submit-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
